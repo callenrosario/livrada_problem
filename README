@@ -1,0 +1,7 @@
+Considering natural numbers of the form, a^b, where a, b < 100, what is the maximum digital sum (sum of all the digits)?
+
+For example the digital sum of 100 is 1, and the digital sum of 234 is 9.
+
+To run:
+
+  $ ruby main.rb
