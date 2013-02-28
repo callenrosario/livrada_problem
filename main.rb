@@ -15,7 +15,7 @@ result = 0
 # digital sum anymore.
 max.downto(0).each do |a|
   power = a**max
-  max.downto(0).each do |b|
+  while power > a
     break if result > power.to_s.length * 9
     sum = digital_sum(power)
     result = sum if result < sum 
